@@ -1,0 +1,46 @@
+#header{
+  font-family: 'Mansalva', cursive;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#header2{
+  font-family: 'Mansalva', cursive;
+  font-size: 50px;
+
+}
+
+#milk{
+  color: white;
+}
+#author{
+  font-family: 'Mansalva', cursive;
+  font-size: 50px;
+
+}
+
+body{
+  position: absolute;
+  left: 30%;
+  background-color: #ecc46d;
+
+
+}
+
+.container{
+  margin: 2px;
+  border: solid black 3px;
+  padding: 5px;
+  top: 20%;
+  width: 60%;
+  height: 30%;
+  position: center;
+
+}
+
+.image{
+  position: relative;
+  left: .5%;
+  top: 100%;
+}

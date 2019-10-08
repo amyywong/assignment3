@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+
+}
+
+
+#header{
+  font-family: 'Damion', cursive;
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  left: 30%;
+}
+
+.link{
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  font-family: 'Rambla', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.author{
+  position: absolute;
+  font-family: 'Rambla', sans-serif;
+  font-size: 20px;
+  left: 45%;
+  top: 60%;
+  color: white;
+}

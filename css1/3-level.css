@@ -1,0 +1,61 @@
+body{
+  font-size: 20px;
+  font-family: 'Damion', cursive;
+}
+
+.container{
+  margin: 2px;
+  border: solid black 3px;
+  padding: 20px;
+  background-color: #dbbdfc;
+}
+
+#rupikaur{
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-family: 'Damion', cursive;
+}
+.block1{
+  positon: fixed;
+  background-color: #7d08b4;
+  width: 200px;
+  height: 100px;
+  right: 80%;
+  top:80%;
+
+}
+
+.block2{
+  position: absolute;
+  background-color: #8c41c7;
+  width: 100px;
+  height: 50px;
+  left: 80%;
+  top: 80%;
+}
+
+.block3{
+  positon: absolute;
+  background-color: #c49cec;
+  width: 50px;
+  height: 25px;
+  left: 80%;
+  top: 60%;
+}
+
+.box{
+  background-color: #930fb4;
+  font-family: 'Damion', cursive;
+  color: white;
+  animation-name: box-bounce;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes box-bounce {
+  from {
+    font-size: 14px;}
+
+  to {
+    font-size: 50px;}
+  }

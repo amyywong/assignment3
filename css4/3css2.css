@@ -1,0 +1,69 @@
+body{
+  font-family: 'Kalam', cursive;
+}
+
+.container{
+
+}
+
+.card{
+  position: absolute;
+  border-radius: 15px;
+  padding: 5px;
+  top: 30%;
+  left: 40%;
+  width: 25%;
+  height: 50%;
+  box-sizing: border-box;
+  background-color: #fff171;
+
+}
+
+.card-content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 10% 10% 10% 10%;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.box{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f2e995;
+  border-radius: 15px;
+  left: 20%;
+  top: 20%;
+}
+
+.box2{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #ffd626;
+  border-radius: 15px;
+  right: 10%;
+  bottom: 10%;
+}
+
+#header{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+
+#header2{
+  font-size: 20px;
+
+}
+
+#milk{
+  position: absolute;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 30px;
+  left: 40%;
+}

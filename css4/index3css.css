@@ -1,0 +1,30 @@
+body{
+  background-color: #e8e766;
+}
+
+#header{
+  color: white;
+  font-family: 'Carter One', cursive;
+  font-size: 90px;
+  position: absolute;
+  left: 30%;
+}
+
+.level4{
+  color:#07d9c0;
+  font-family: 'Carter One', cursive;
+  position: absolute;
+  top:30%;
+  left: 30%;
+  font-size: 30px;
+}
+
+.level5{
+  color: #07d9c0;
+  font-family: 'Carter One', cursive;
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  font-size: 30px;
+
+}

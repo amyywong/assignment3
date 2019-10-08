@@ -1,0 +1,65 @@
+body{
+  margin: 20px;
+  border: solid black 1px;
+  padding: 20px;
+}
+
+.container{
+  background-color: #e9e34e;
+  width: 50%;
+  height: 50%;
+}
+.box{
+  margin: 20px;
+  padding: 20px;
+  border: solid black 1px;
+}
+
+.box1{
+  background-color: #ec7118;
+  width: 50px;
+  height: 50px;
+  animation-name: box-bounce;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+
+}
+
+
+#milkandhoney{
+  font-size: 100px;
+  font-family: Helvetica;
+  animation-name: header-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+
+#pretty{
+  font-style: italic;
+}
+
+@keyframes header-color {
+  from{background-color: #ec7118;}
+  to{background-color: #f5e12b;}
+}
+
+@keyframes box-bounce {
+  0% {left: 25%;
+      top: 0%;}
+
+  25% {left: 45%;
+        top: 90%;}
+
+  50% {left: 75%;
+        top: 45%;}
+
+  75% {left: 45%;
+      top: 15%;}
+
+  100% {left: 25%;
+        top: 0%;}
+
+}

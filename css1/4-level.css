@@ -1,0 +1,111 @@
+.box1{
+  position: absolute;
+  background-color: #e84326;
+  width: 20%;
+  height: 10%;
+  animation-name: box1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.box2{
+  position: absolute;
+  background-color: #e0e344;
+  width: 20%;
+  height: 10%;
+  animation-name: box2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.box3{
+  position: absolute;
+  background-color: #59da6a;
+  width: 65%;
+  height: 13%;
+  animation-name: box3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.box4{
+  position: absolute;
+  background-color: #6acbe6;
+  width: 75%;
+  height: 15%;
+  animation-name: box4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.container{
+position: absolute;
+border: solid black 5px;
+padding-left: 2px;
+width: 5%;
+height: 5%;
+animation-name: container;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+#header1{
+  font-size: 50px;
+  font-style: oblique;
+  font-family: Helvetica;
+}
+
+#header2{
+  font-size: 30px;
+  font-style: italic;
+  font-family: Helvetica;
+}
+
+@keyframes box1 {
+  from {left: 0%; }
+  to {left: 90%;}
+
+}
+@keyframes box2 {
+  from { left: 0%;
+  top: 40%; }
+  to {left: 90%;
+  top: 40%;}
+
+}
+
+@keyframes box3 {
+  from { left: 0%;
+  top: 55%; }
+  to {left: 90%;
+  top: 55%;}
+
+}
+
+@keyframes box4 {
+  from { left: 0%;
+  top: 70%; }
+  to {left: 90%;
+  top: 70%;}
+}
+@keyframes container {
+  0% {left: 25%;
+      top: 0%;}
+
+  25% {left: 45%;
+        top: 90%;}
+
+  50% {left: 75%;
+        top: 45%;
+        border-radius: 2px;
+        width: 80vh;
+        height: 5vh;}
+
+  75% {left: 45%;
+      top: 15%;
+      border-radius: 90px;
+      width: 20vh;}
+
+  100% {left: 25%;
+        top: 0%;}
+}

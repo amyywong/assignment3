@@ -1,0 +1,16 @@
+body{
+  position: relative;
+}
+
+
+#header{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+.container{
+background-color: #e3d76f;
+position: relative;
+padding: 3px;
+}

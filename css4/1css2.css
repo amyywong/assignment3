@@ -1,0 +1,24 @@
+#header{
+  font-family: 'Roboto', sans-serif;
+  font-size: 70px;
+  font-style: bold;
+  font-weight: 10000;
+}
+
+#header2{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+
+}
+body{
+  position: absolute;
+  background-color: #64c6ba;
+  left: calc(50% - 100px);
+  font-family: 'Roboto', sans-serif;
+}
+
+#author{
+  text-transform: uppercase;
+  font-style: bold;
+}

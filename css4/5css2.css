@@ -1,0 +1,43 @@
+#header{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 100px;
+  letter-spacing: 5px;
+  color: #fa2a7b;
+}
+
+#header2{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 50px;
+  color: #41cde6;
+
+}
+
+.content{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  background-color: #fa2a7b;
+}
+
+.content1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #41cde6;
+}
+.content2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #fa2a7b;
+  color: white;
+
+}
+
+.content3{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #41cde6;
+}
